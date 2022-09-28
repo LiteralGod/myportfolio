@@ -1,0 +1,21 @@
+.arrow__container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
+}
+
+.arrow{
+    overflow: hidden;
+    margin-top: 10;
+    height: 0px;
+    animation: draw 10s forwards;
+    animation-delay: 2s;
+}
+
+
+@keyframes draw{
+    from {height: 0px}
+    to {height: 200px}
+}
+
